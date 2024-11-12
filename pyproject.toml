@@ -1,0 +1,14 @@
+[project]
+name = "wikiloc-maphub-exporter"
+version = "0.1.0"
+description = "Easy way to extract wikiloc trails to MapHub"
+readme = "README.md"
+requires-python = ">=3.12"
+authors = [
+    "Manuel Garrido<manu@es.python.org>",
+]
+dependencies = [
+    "click>=8.1.7",
+    "playwright==1.48.0",
+    "requests>=2.32.3",
+]
